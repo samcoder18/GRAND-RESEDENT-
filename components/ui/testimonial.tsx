@@ -161,7 +161,7 @@ function AnimatedTestimonialsDemo() {
 
 export function Component() {
   return (
-    <section id="testimonials" className="relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-[var(--color-paper)]">
+    <section id="testimonials" className="relative flex min-h-screen w-full items-center justify-center overflow-hidden">
       <style>
         {`
           @keyframes animate-grid {

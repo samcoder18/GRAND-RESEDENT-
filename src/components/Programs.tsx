@@ -42,7 +42,7 @@ export function Programs() {
   const reduceMotion = useReducedMotion();
 
   return (
-    <section id="programs" className="relative overflow-hidden bg-[var(--color-paper)] px-5 py-16 md:px-10 md:py-24">
+    <section id="programs" className="relative overflow-hidden px-5 py-16 md:px-10 md:py-24">
       <motion.div
         className="mx-auto max-w-7xl"
         initial={reduceMotion ? false : 'hidden'}

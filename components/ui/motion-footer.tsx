@@ -181,7 +181,7 @@ export function CinematicFooter() {
         className="relative h-screen w-full"
         style={{ clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)" }}
       >
-        <footer className="cinematic-footer-wrapper fixed bottom-0 left-0 flex h-screen w-full flex-col justify-between overflow-hidden bg-background text-foreground">
+        <footer className="cinematic-footer-wrapper fixed bottom-0 left-0 flex h-screen w-full flex-col justify-between overflow-hidden bg-transparent text-foreground">
           <div className="relative z-10 mx-auto flex w-full max-w-7xl items-center justify-between px-6 pt-8 font-mono text-[10px] font-medium uppercase tracking-[0.08em] text-muted-foreground md:px-12 md:text-xs">
             <span>Гранд Резидент</span>
             <span>Global mobility consulting</span>

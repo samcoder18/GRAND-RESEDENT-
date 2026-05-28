@@ -25,7 +25,7 @@ export function GridBackground({
         }
       : variant === "diagonal-dark"
         ? {
-            backgroundColor: "var(--color-paper)",
+            backgroundColor: "transparent",
             backgroundImage: `
               linear-gradient(45deg, color-mix(in oklch, var(--color-accent) 7%, transparent) 1px, transparent 1px),
               linear-gradient(-45deg, color-mix(in oklch, var(--color-rule-2) 18%, transparent) 1px, transparent 1px),
@@ -39,7 +39,7 @@ export function GridBackground({
               linear-gradient(90deg, transparent 0, transparent calc(100% - 1px), color-mix(in oklch, var(--color-rule) 72%, transparent) calc(100% - 1px))
             `,
             backgroundSize: "clamp(4rem, 12vw, 11rem) 100%",
-            backgroundColor: "var(--color-paper)",
+            backgroundColor: "transparent",
           };
 
   return (

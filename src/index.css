@@ -97,7 +97,7 @@ body {
 }
 
 .page-shell {
-  background: var(--color-paper);
+  background: transparent;
 }
 
 .hero-grid {

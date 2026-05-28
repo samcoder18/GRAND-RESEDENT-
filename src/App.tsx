@@ -11,14 +11,16 @@ import { Services } from './components/Services';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { Component as Testimonials } from '@/components/ui/testimonial';
+import { InfiniteGridBackground } from '@/components/ui/the-infinite-grid';
 import { CursorTrailDot } from './components/ui/CursorTrailDot';
 
 export default function App() {
   return (
     <div className="page-shell min-h-screen text-[var(--color-ink)]">
+      <InfiniteGridBackground />
       <CursorTrailDot />
       <Header />
-      <main>
+      <main className="relative z-10">
         <Hero />
         <Programs />
         <About />
@@ -26,7 +28,9 @@ export default function App() {
         <Testimonials />
         <Contact />
       </main>
-      <Footer />
+      <div className="relative z-10">
+        <Footer />
+      </div>
     </div>
   );
 }
